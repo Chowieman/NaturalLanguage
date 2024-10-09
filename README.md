@@ -24,5 +24,25 @@ JOIN `Dish` d ON o.DishId = d.Id;
 
 Response:
 ```text
-[[()]]
+[[(71.93)]]
 ```
+
+## Queries that did not work
+
+prompt: What item is the most successful?
+
+Query:
+```sql
+SELECT * FROM Dish WHERE Id = 1;
+```
+
+Response:
+```text
+[[(Spaghetti Bolognese)]]
+```
+
+Description: Chat-GPT thought did not know how to translate 'most successful' i assumed it would find the most ordered item but it just chose the lowest id.
+
+## Strategies
+
+I originally thought about using the zero-shot strategy because of its versatility but ended up using the single-domain strategy instead becasue it is more accurate and slightly more efficient with my database. I did not consider cross-domain for too long because although it would be great for broader applications my database is simple so it would make things unnecessarily complicated.
