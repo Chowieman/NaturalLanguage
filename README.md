@@ -2,7 +2,7 @@
 
 ### Restaurant Database Description
 
-My database is supposed to simulate a restaurant database. It has three tables: Customers, Orders, and Dishes. Customers has all the information on each individual customer. Dishes has all the information on each individual dish. Finally Transactions has all the information regarding each individual transaction.
+My database is supposed to simulate a restaurant database. It has three tables: Customer, Order, and Dish. Customer has all the information on each individual customer. Dish has all the information on each individual dish. Finally Order has all the information regarding each individual order.
 
 ## Schema
 
