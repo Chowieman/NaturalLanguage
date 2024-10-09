@@ -6,8 +6,7 @@ My database is supposed to simulate a restaurant database. It has three tables: 
 
 ## Schema
 
-![Database Schema](./database-schema.png)
-![schema](db.png)
+![Database Schema](Schema.png)
 
 ## Results
 
